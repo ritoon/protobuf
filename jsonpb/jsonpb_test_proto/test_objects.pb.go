@@ -21,9 +21,9 @@ var _ = math.Inf
 type Widget_Color int32
 
 const (
-	Widget_RED   Widget_Color = 0
-	Widget_GREEN Widget_Color = 1
-	Widget_BLUE  Widget_Color = 2
+	Widget_RED Widget_Color = iota
+	Widget_GREEN
+	Widget_BLUE
 )
 
 var Widget_Color_name = map[int32]string{
