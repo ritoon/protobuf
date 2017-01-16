@@ -41,9 +41,9 @@ const _ = proto.ProtoPackageIsVersion2 // please upgrade the proto package
 type Numeral int32
 
 const (
-	Numeral_UNKNOWN Numeral = 0
-	Numeral_ARABIC  Numeral = 1
-	Numeral_ROMAN   Numeral = 2
+	Numeral_UNKNOWN Numeral = iota
+	Numeral_ARABIC
+	Numeral_ROMAN
 )
 
 var Numeral_name = map[int32]string{
